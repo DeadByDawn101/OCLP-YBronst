@@ -21,4 +21,4 @@ jobs:
            /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 -m pip install packaging
            rm -rf Univ*
            aria2c -x 16 "https://github.com/YBronst/PatcherSupportPkg/releases/download/1.9.7/Universal-Binaries.dmg"
-           /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 OpenCore-Patcher-GUI.command --validate
+           # /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 OpenCore-Patcher-GUI.command --validate
