@@ -16,7 +16,7 @@ This repository supports:
 * Mounting images via [`hdiutil`](https://github.com/YBronst/tccplus) now requires **elevated privileges** and cannot be executed in a normal user context. Because of this, the original OCLP 3.0.0 Nightly workflow cannot complete the root patch installation process on macOS 26.4 without modification.
 
 ## Key Changes in 3.1.5
-* **Backward compatibility** with macOS Tahoe 26.0 – 26.3 is maintained.
+* **Backward compatibility** with macOS Tahoe 26.0–26.3 has been preserved.
 * **Patch image processing** has been migrated to APFS for compatibility with macOS 26.4.
 * **Privileged mount logic** has been added, which is necessary for accessing internal patch images and system resources.
 * **AMFIPass** cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instead, use `amfi=0x80` boot argument and handling application permissions based on [`tccplus`](https://github.com/YBronst/tccplus).
