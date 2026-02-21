@@ -49,6 +49,7 @@ class HelpFrame(wx.Frame):
         buttons = {
             "Official Guide":           self.constants.guide_link,
             "Community Discord Server": self.constants.discord_link,
+            "Download Kernel Debug Kit": self.constants.kdk_support_pkg_link,
         }
 
         for button in buttons:
