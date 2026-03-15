@@ -13,19 +13,19 @@ from .detections import device_probe
 class Constants:
     def __init__(self) -> None:
         # Patcher Versioning
-        self.patcher_version:                 str = "3.1.7"  # OpenCore-Legacy-Patcher
+        self.patcher_version:                 str = "3.1.7r"  # RavenX LLC Tahoe Patcher
         self.patcher_support_pkg_version:     str = "2.0.0"  # PatcherSupportPkg
-        self.copyright_date:                  str = "Copyright © 2020-2025 Dortania"
-        self.patcher_name:                    str = "OpenCore Legacy Patcher"
+        self.copyright_date:                  str = "Copyright © 2020-2025 Dortania, © 2026 RavenX LLC"
+        self.patcher_name:                    str = "RavenX Tahoe Patcher"
 
         # URLs
         self.url_patcher_support_pkg:         str = "https://github.com/YBronst/PatcherSupportPkg/releases/tag/2.0.0/Universal-Binaries.dmg"
         self.discord_link:                    str = "https://discord.gg/rqdPgH8xSN"
         self.guide_link:                      str = "https://dortania.github.io/OpenCore-Legacy-Patcher/"
         self.kdk_support_pkg_link:            str = "https://github.com/dortania/KdkSupportPkg/releases"
-        self.repo_link:                       str = "https://github.com/YBronst/OpenCore-Legacy-Patcher"
+        self.repo_link:                       str = "https://github.com/DeadByDawn101/OCLP-YBronst"
         self.installer_pkg_url:               str = f"{self.repo_link}/releases/download/{self.patcher_version}/AutoPkg-Assets.pkg"
-        self.installer_pkg_url_nightly:       str = "http://nightly.link/YBronst/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/main/AutoPkg-Assets.pkg.zip"
+        self.installer_pkg_url_nightly:       str = f"http://nightly.link/DeadByDawn101/OCLP-YBronst/workflows/build-app-wxpython/main/AutoPkg-Assets.pkg.zip"
 
         # OpenCore Versioning
         # https://github.com/acidanthera/OpenCorePkg

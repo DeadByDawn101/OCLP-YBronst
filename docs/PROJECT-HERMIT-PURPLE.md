@@ -208,7 +208,7 @@ their focus is iOS security research.
 We're not building from scratch. We're combining:
 - **ChefKiss QEMU** (Apple Silicon emulation + kernel patcher)
 - **VMApple** (Apple's own macOS VM device model, reimplemented)
-- **OCLP philosophy** (patch what blocks you, leave the rest alone)
+- **RavenX philosophy** (patch what blocks you, leave the rest alone)
 - **Apple's public restore images** (legal source of macOS ARM binaries)
 
 This is not theory. Every individual component exists and works. The integration
@@ -217,7 +217,7 @@ is the challenge.
 ## Files
 
 - `QEMUAppleSilicon/` — ChefKiss fork (cloned)
-- `OCLP-YBronst/` — OCLP Tahoe patches (our fork, iMac Pro enabled)
+- `RavenX Tahoe Patcher` — OCLP Tahoe patches (our fork, iMac Pro enabled)
 - This document — architecture plan
 
 ## References
