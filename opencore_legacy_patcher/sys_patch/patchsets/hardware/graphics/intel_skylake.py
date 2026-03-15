@@ -25,16 +25,19 @@ class IntelSkylake(BaseHardware):
         """
         Display name for end users
         """
-        return f"{self.hardware_variant()}: Intel Skylake"
+        return f"{self.hardware_variant()}: Intel Skylake/Kaby Lake"
 
 
     def present(self) -> bool:
         """
-        Targeting Intel Skylake GPUs
+        Targeting Intel Skylake and Kaby Lake GPUs
+        Both use AppleIntelSKLGraphics.kext — Apple's Skylake driver
+        handles Gen9 (Skylake) and Gen9.5 (Kaby Lake) with the same binaries.
         """
         return self._is_gpu_architecture_present(
             gpu_architectures=[
-                device_probe.Intel.Archs.Skylake
+                device_probe.Intel.Archs.Skylake,
+                device_probe.Intel.Archs.Kaby_Lake,
             ]
         )
 
