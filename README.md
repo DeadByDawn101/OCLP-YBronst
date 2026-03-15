@@ -194,8 +194,9 @@ This Stand is a component of the [Star Platinum distributed AI supercomputer](ht
 
 Other Stands in the cluster:
 - 「**Star Platinum**」 — The cluster itself
-- 「**Hermit Purple**」 — macOS ARM on Intel x86 via QEMU
+- 「**Bohemian Rhapsody**」 — Creative AI studio (ComfyUI + ANE)
 - 「**Big Mouth Strikes Again**」 — This patcher
+- 「**Hermit Purple**」 — macOS ARM on Intel x86 via QEMU
 
 ---
 
