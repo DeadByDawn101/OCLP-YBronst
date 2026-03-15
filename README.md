@@ -1,197 +1,204 @@
 ```
-                                                                          
- ██████╗  █████╗ ██╗   ██╗███████╗███╗   ██╗██╗  ██╗    ██╗     ██╗      ██████╗
- ██╔══██╗██╔══██╗██║   ██║██╔════╝████╗  ██║╚██╗██╔╝    ██║     ██║     ██╔════╝
- ██████╔╝███████║██║   ██║█████╗  ██╔██╗ ██║ ╚███╔╝     ██║     ██║     ██║     
- ██╔══██╗██╔══██║╚██╗ ██╔╝██╔══╝  ██║╚██╗██║ ██╔██╗     ██║     ██║     ██║     
- ██║  ██║██║  ██║ ╚████╔╝ ███████╗██║ ╚████║██╔╝ ██╗    ███████╗███████╗╚██████╗
- ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝    ╚══════╝╚══════╝ ╚═════╝
-                                                                          
-      ┌─────────────────────────────────────────────────────────────┐
-      │  TAHOE PATCHER v3.1.7r  ·  macOS 26.x on Unsupported Macs  │
-      │  Built on OpenCore Legacy Patcher  ·  First to Market       │
-      └─────────────────────────────────────────────────────────────┘
+                          ▄▄▄▄▄▄▄▄▄▄▄▄▄
+                      ▄██████████████████████▄
+                   ▄████▀▀░░░░░░░░░░░░░░▀▀█████▄
+                 ▄███▀░░▄▄████████████████▄▄░░▀███▄
+               ▄██▀░░▄██▀▀░░░░░░░░░░░░░░▀▀██▄░░▀██▄
+              ███░░▄██░░▓▓▓▓▓▒░░░░░░░▒▓▓▓▓▓░░██▄░░███
+             ██▀░▄██░▓█▓░░ ▄██▄ ░░░░░ ▄██▄ ░░▓█▓░██▄░▀██
+            ██░░██▀░▓█░░░ █▀▀██ ░░░░░ ██▀▀█ ░░░█▓░▀██░░██
+           ██░▄█▀░▓█▓░░░░ ▀████ ░░░░░ ████▀ ░░░░▓█▓░▀█▄░██
+          ██░██░░▓█▓░░░░░░░░░░░░░▓▓░░░░░░░░░░░░░░▓█▓░░██░██
+         ██░██░░█▓░░░░░░░░░░░░░░▓██▓░░░░░░░░░░░░░░▓█░░██░██
+         █▌▐█░░█▓░░▒▓████▓▒░░░░░░░░░░░░░▒▓████▓▒░░▓█░░█▌▐█
+         █▌▐█░▓█░▒████▀▀▀████▒░░░░░░░░▒████▀▀▀████▒░█▓░█▌▐█
+         █▌▐█░█▓░████░░░░░░████░░░░░░████░░░░░░████░▓█░█▌▐█
+         █▌▐█░█▓░▀████▄▄▄████▀░░▓▓▓░░▀████▄▄▄████▀░▓█░█▌▐█
+         █▌▐█░▓█░░▒▀▀██████▀▒░▓█████▓░▒▀██████▀▀▒░░█▓░█▌▐█
+         ██░█░░█▓░░░░░░░░░░░▓███▀▀▀███▓░░░░░░░░░░░▓█░░█░██
+          █░██░░█▓░░░░░░░░▓███▀░░░░░▀███▓░░░░░░░░▓█░░██░█
+          ██░██░░▓█▓░░░░▓███▀░░░░░░░░░▀███▓░░░░▓█▓░░██░██
+           ██░██▄░░▓██▓████░░░░░░░░░░░░░████▓██▓░░▄██░██
+            ██░░██▄░░░▓████░░░░░░░░░░░░░████▓░░░▄██░░██
+             ██▄░▀██▄░░░░▀████▄▄▄▄▄▄▄████▀░░░░▄██▀░▄██
+              ▀██▄░░▀██▄░░░░▀▀████████▀▀░░░░▄██▀░░▄██▀
+                ▀██▄░░▀███▄░░░░░░░░░░░░░░▄███▀░░▄██▀
+                  ▀███▄░░▀████▄▄▄▄▄▄▄▄████▀░░▄███▀
+                    ▀████▄░░░▀▀▀▀▀▀▀▀▀▀░░░▄████▀
+                       ▀██████▄▄▄▄▄▄▄▄██████▀
+                          ▀▀▀████████████▀▀▀
+
+  ╔═══════════════════════════════════════════════════════════════╗
+  ║   B I G   M O U T H   S T R I K E S   A G A I N             ║
+  ║   ─────────────────────────────────────────────              ║
+  ║   Stand User: RavenX LLC                                     ║
+  ║   Stand Type: macOS Tahoe Patcher v3.1.7r                   ║
+  ║   Power: A  Speed: A  Range: C  Persistence: A  Precision: A ║
+  ║   "Sweetness, sweetness I was only joking                    ║
+  ║    when I said I'd like to smash every Mac into Tahoe"       ║
+  ╚═══════════════════════════════════════════════════════════════╝
 ```
 
-# RavenX LLC — Tahoe Patcher
+# 「 BIG MOUTH STRIKES AGAIN 」
 
-**macOS Tahoe (26.x) on every Mac that deserves it.**
+### *Stand Ability: Devours unsupported hardware restrictions. Reconstructs macOS Tahoe on machines Apple abandoned.*
 
-Based on OpenCore Legacy Patcher by Dortania + YBronst Tahoe patchset by lzhoang2801.
-Enhanced by [RavenX LLC](https://github.com/DeadByDawn101) with critical fixes for
-iMac Pro, 2017 MacBook Pro, and Intel Kaby Lake GPUs.
+**Stand User:** [RavenX LLC](https://github.com/DeadByDawn101)
+**Stand Type:** Close-Range / Colony — operates on every Mac in the cluster simultaneously
+**Destructive Power:** A — tears apart 6 upstream bugs that blocked GPU acceleration
+**Speed:** A — automated QA catches blockers in seconds
+**Range:** C — requires physical access to target Mac
+**Persistence:** A — patches survive reboots via OpenCore EFI
+**Precision:** A — 21/21 QA checks, 136 Python files validated
+
+Based on OpenCore Legacy Patcher by Dortania + YBronst Tahoe patchset.
+Enhanced by RavenX LLC with critical fixes for iMac Pro, 2017 MacBook Pro,
+and Intel Kaby Lake GPUs that upstream missed entirely.
 
 ---
 
-## What We Fixed (Upstream Had 6 Bugs)
+## Stand Ability: 「 DEVOUR & RECONSTRUCT 」
 
-| # | Bug | Impact | Machines Affected |
-|---|-----|--------|-------------------|
-| 1 | `iMacPro1,1` missing from `SupportedSMBIOS` | Patcher refuses to run | iMac Pro (2017) |
-| 2 | AMD Vega patches excluded CPUs with AVX2 | No GPU acceleration | iMac Pro (Skylake Xeon has AVX2) |
-| 3 | iMac Pro `Max OS` set to 99 (max_os) | Patcher thinks it's natively supported | iMac Pro |
-| 4 | `iMacPro1,1` missing from `AGDPSupport` | No Apple Graphics Device Policy patch | iMac Pro |
-| 5 | Dead code in `modern_wireless.py` | Unreachable return statement | All Macs |
-| 6 | **Intel Kaby Lake iGPU not in Skylake patchset** | **No GPU acceleration at all** | **All 2017 MacBook Pros (13")** |
+Six restrictions devoured. Six patches applied. Hardware reborn.
 
-Bug #6 was found during our HARD QA pass. Every 2017 MacBook Pro 13" running Tahoe
-via upstream OCLP-YBronst would have booted into software rendering — unusable.
+| # | Restriction Devoured | What It Blocked | Machines Freed |
+|---|---------------------|-----------------|----------------|
+| 1 | `iMacPro1,1` excluded from SupportedSMBIOS | Patcher refused to run | iMac Pro (2017) |
+| 2 | AMD Vega patches excluded AVX2 CPUs | Zero GPU acceleration | iMac Pro (Skylake Xeon) |
+| 3 | iMac Pro Max OS = 99 | Patcher thought it was native | iMac Pro |
+| 4 | iMacPro1,1 excluded from AGDPSupport | No AGDP patching | iMac Pro |
+| 5 | Dead code in modern\_wireless.py | Unreachable return | All Macs |
+| 6 | **Intel Kaby Lake iGPU missing from patches** | **No GPU at all** | **Every 2017 MacBook Pro 13"** |
+
+Bug #6 is the one that would have sent your 2017 MacBook Pro to software rendering hell.
+Big Mouth devoured it.
 
 ## Compatibility
 
 | macOS Version | Status |
 |---------------|--------|
-| macOS Tahoe 26.0 (25A5316i) | ✅ Supported |
-| macOS Tahoe 26.1 – 26.3 | ✅ Supported |
-| macOS Tahoe 26.4 (25E5233c) | ✅ Supported |
-| Future 26.x builds | Should work |
+| macOS Tahoe 26.0 (25A5316i) | ✅ |
+| macOS Tahoe 26.1 – 26.3 | ✅ |
+| macOS Tahoe 26.4 (25E5233c) | ✅ |
 
-## Tested / Target Hardware
+## Target Hardware
 
-| Machine | GPU | Patches Applied | Status |
-|---------|-----|-----------------|--------|
-| **iMac Pro (2017)** `iMacPro1,1` | AMD Vega 56 (8GB HBM2) | Vega Metal + Audio + WiFi | RavenX fixed |
-| **MacBook Pro 13" (2017)** `MacBookPro14,1` | Intel Iris Plus 640 | Kaby Lake Metal + Audio + WiFi | RavenX fixed |
-| **MacBook Pro 13" (2017)** `MacBookPro14,2` | Intel Iris Plus 650 | Kaby Lake Metal + Audio + WiFi | RavenX fixed |
-| **MacBook Pro 15" (2017)** `MacBookPro14,3` | Intel HD 630 + Polaris dGPU | Kaby Lake + Polaris Metal | Upstream OK |
-| All other OCLP-supported Macs | Various | Per upstream | Upstream OK |
+| Machine | GPU | Stand Effect |
+|---------|-----|-------------|
+| **iMac Pro (2017)** `iMacPro1,1` | AMD Vega 56 | Vega Metal restored |
+| **MacBook Pro 13" (2017)** `MacBookPro14,1/14,2` | Intel Kaby Lake | Kaby Lake Metal restored |
+| **MacBook Pro 15" (2017)** `MacBookPro14,3` | Kaby Lake + Polaris | Dual GPU patched |
+| All other OCLP Macs | Various | Upstream patches apply |
 
-## ⚠️ Important Notes
+## ⚠️ Stand Limitations
 
-* **AMFIPass cannot be used** — causes kernel panics on 3.1.7. Use `amfi=0x80` boot argument.
-* **Kernel Debug Kit (KDK)** required for audio patches. Download via Help menu in the patcher.
-* **Modern Audio toggle** in Root Patches menu — disable if no matching KDK installed.
-* **HFS+ removed in Tahoe 26.4** — patching logic adapted for APFS-only environment.
+* **AMFIPass** causes kernel panics — use `amfi=0x80` boot argument instead
+* **KDK** required for audio (AppleHDA). Download via Help menu.
+* **Modern Audio toggle** in Root Patches — disable if no matching KDK.
 
-## Quick Start
-
-### Prerequisites
-- A working Mac to build the patcher and create the installer
-- 16GB+ USB drive
-- Target Mac running macOS Sequoia or earlier
-
-### Install
+## Summoning the Stand
 
 ```bash
-# Clone
+# Manifest
 git clone https://github.com/DeadByDawn101/OCLP-YBronst.git
 cd OCLP-YBronst
 
-# Build
+# Materialize
 pip3 install -r requirements.txt
 python3 Build-Project.command
-
-# Or download from Releases:
-# https://github.com/DeadByDawn101/OCLP-YBronst/releases
 ```
 
-### Patch Your Mac
+### Stand Rush (Patch Sequence)
 
-1. **Build OpenCore EFI** — Open the patcher, select your Mac model, build + install to USB/internal
-2. **Create Tahoe USB** — Use the patcher to download and create a macOS Tahoe installer
-3. **Install Tahoe** — Boot from OpenCore, install macOS Tahoe
-4. **Apply Root Patches** — After install, open patcher → Post-Install Root Patch → Apply All
-5. **Reboot** — GPU acceleration, audio, WiFi should all work
-6. **Required:** `amfi=0x80` boot argument
+1. **ORA** — Build OpenCore EFI → install to USB
+2. **ORA** — Create macOS Tahoe installer on USB
+3. **ORA** — Boot from OpenCore → install Tahoe
+4. **ORA** — Run patcher → Post-Install Root Patch → Apply All
+5. **ORAAAA!** — Reboot. GPU acceleration. Audio. WiFi. Everything.
+6. Boot arg required: `amfi=0x80`
 
 ## What Gets Patched
 
-### iMac Pro (2017)
+### iMac Pro (2017) — Vega 56
 
 | Component | Source | Patch |
 |-----------|--------|-------|
-| AMD Vega GPU | Monterey 12.5 | Legacy Metal 31001 + AMDRadeonX5000 drivers |
-| Audio | Tahoe Beta 1 KDK | AppleHDA.kext restoration |
+| AMD Vega GPU | Monterey 12.5 | Legacy Metal 31001 + AMDRadeonX5000 |
+| Audio | Tahoe Beta 1 KDK | AppleHDA.kext |
 | OpenCL | Monterey 12.5 | AMD OpenCL downgrade |
-| Video Decode | Native | GVA reverted (Vega supports current stack) |
-| WiFi | Ventura 13.7.2 | IO80211, WiFiPeerToPeer, wifip2pd |
-| AGDP | OpenCore | Apple Graphics Device Policy bypass |
+| Video Decode | Native | GVA reverted |
+| WiFi | Ventura 13.7.2 | IO80211 + WiFiPeerToPeer |
+| AGDP | OpenCore | Graphics Device Policy bypass |
 
-### 2017 MacBook Pro (13")
+### 2017 MacBook Pro 13" — Intel Kaby Lake
 
 | Component | Source | Patch |
 |-----------|--------|-------|
-| Intel Kaby Lake iGPU | Monterey 12.5 | AppleIntelSKLGraphics + framebuffers |
-| Audio | Tahoe Beta 1 KDK | AppleHDA.kext restoration |
+| Intel Kaby Lake iGPU | Monterey 12.5 | AppleIntelSKLGraphics |
+| Audio | Tahoe Beta 1 KDK | AppleHDA.kext |
 | OpenCL | Monterey 12.5 | Intel OpenCL downgrade |
-| WiFi | Ventura 13.7.2 | IO80211, WiFiPeerToPeer, wifip2pd |
+| WiFi | Ventura 13.7.2 | IO80211 + WiFiPeerToPeer |
 
-### 2017 MacBook Pro (15")
+### 2017 MacBook Pro 15" — Kaby Lake + Polaris dGPU
 
-Same as 13" plus AMD Polaris dGPU patches (AMDRadeonX4000 driver stack).
+Same as 13" plus AMD Polaris patches (AMDRadeonX4000 stack).
 
-## Architecture
+## Stand Stats
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│                 RavenX LLC Tahoe Patcher                 │
-│                                                          │
-│  ┌─────────────┐  ┌──────────────┐  ┌────────────────┐  │
-│  │  EFI Builder │  │  Root Patcher │  │  KDK Handler   │  │
-│  │  (OpenCore)  │  │  (sys_patch)  │  │  (kdk_handler) │  │
-│  └──────┬───────┘  └──────┬───────┘  └───────┬────────┘  │
-│         │                 │                   │           │
-│  ┌──────▼─────────────────▼───────────────────▼────────┐  │
-│  │                  Patchset Detection                  │  │
-│  │  AMD Vega · Polaris · GCN · Intel SKL/KBL · Audio   │  │
-│  │  Modern Wireless · Bluetooth · USB · GMUX            │  │
-│  └──────────────────────┬──────────────────────────────┘  │
-│                         │                                 │
-│  ┌──────────────────────▼──────────────────────────────┐  │
-│  │              SMBIOS / Hardware Detection             │  │
-│  │  iMacPro1,1 · MacBookPro14,x · MacPro6,1 · ...     │  │
-│  └─────────────────────────────────────────────────────┘  │
-└──────────────────────────────────────────────────────────┘
+ ╔══════════════════════════════════════════════════════╗
+ ║         「 BIG MOUTH STRIKES AGAIN 」                 ║
+ ║                                                      ║
+ ║   Stand User ............ RavenX LLC                 ║
+ ║   Version ............... 3.1.7r                     ║
+ ║   Bugs Devoured ......... 6                          ║
+ ║   QA Checks Passed ...... 21/21                      ║
+ ║   Python Files Clean .... 136/136                    ║
+ ║   Machines Freed ........ iMac Pro + 2017 MBP        ║
+ ║   First to Market ....... Yes                        ║
+ ║                                                      ║
+ ║   "Now I know how Joan of Arc felt"                  ║
+ ╚══════════════════════════════════════════════════════╝
 ```
 
 ## Changelog
 
-### v3.1.7r (RavenX LLC)
-- **Added:** iMac Pro (`iMacPro1,1`) full Tahoe support
-- **Added:** Intel Kaby Lake to Skylake GPU patchset (covers all 2017 MacBook Pros)
-- **Fixed:** AMD Vega patches now apply to Skylake+ CPUs with AVX2
-- **Fixed:** iMac Pro Max OS set to Sequoia (was incorrectly max_os)
-- **Fixed:** iMac Pro added to AGDPSupport array
-- **Fixed:** Dead code removed from `modern_wireless.py`
-- **QA:** 21/21 checks passed, 136 Python files validated, 0 errors
+### v3.1.7r「BIG MOUTH STRIKES AGAIN」
+- **Devoured:** iMac Pro exclusion from SupportedSMBIOS + AGDPSupport
+- **Devoured:** AMD Vega AVX2 CPU exclusion
+- **Devoured:** iMac Pro wrong Max OS (was 99, now sequoia)
+- **Devoured:** Intel Kaby Lake missing from Skylake GPU patchset
+- **Devoured:** Dead code in modern\_wireless.py
+- **Reconstructed:** Full Tahoe support for iMac Pro + all 2017 MacBook Pros
+- **QA:** 21/21 passed, 136 files validated, 0 errors
 
-### v3.1.7 (upstream YBronst)
-- Full support for macOS Tahoe 26.0 through 26.4
-- HFS+ removal adaptation for APFS-only Tahoe 26.4
-- hdiutil permissions fix for Tahoe 26.4
-- Modern Audio toggle in Root Patches menu
-- KDK download button in Help menu
+### v3.1.7 (upstream)
+- macOS Tahoe 26.0–26.4 support
+- HFS+ removal adaptation
+- hdiutil permissions fix
+- Modern Audio toggle + KDK download
 
 ## Credits
 
-```
- ╔══════════════════════════════════════════════════╗
- ║              RavenX LLC Engineering              ║
- ║  "We don't work with what's possible now.       ║
- ║   We MAKE things possible."                     ║
- ╚══════════════════════════════════════════════════╝
-```
-
-* **[RavenX LLC](https://github.com/DeadByDawn101)** — iMac Pro support, Kaby Lake fix, QA automation
-* [YBronst](https://github.com/YBronst) — Original OCLP Tahoe fork
+* **[RavenX LLC](https://github.com/DeadByDawn101)** — Stand User. 6 bugs devoured, iMac Pro + Kaby Lake freed.
+* [YBronst](https://github.com/YBronst) — Original Tahoe fork
 * [lzhoang2801](https://github.com/lzhoang2801) — Tahoe patchset foundation
-* [Acidanthera](https://github.com/Acidanthera) — OpenCorePkg and core kexts
-* [DhinakG](https://github.com/DhinakG) & [Khronokernel](https://github.com/Khronokernel) — OCLP co-authors
-* [EduCovas](https://github.com/covasedu) — Metal patches, GCN/Vega shims, legacy WiFi
+* [Acidanthera](https://github.com/Acidanthera) — OpenCorePkg
+* [DhinakG](https://github.com/DhinakG) & [Khronokernel](https://github.com/Khronokernel) — OCLP
+* [EduCovas](https://github.com/covasedu) — Metal patches, WiFi
 * All [OCLP contributors](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
-## Part of the Star Platinum Cluster Project
+## Part of「STAR PLATINUM」
 
-This patcher is a component of the [Star Platinum distributed AI supercomputer](https://github.com/DeadByDawn101/star-platinum-cluster) — a first-of-its-kind local cluster unifying Apple Neural Engine compute, Thunderbolt networking, and distributed inference across Mac hardware from 2013 to 2024.
+This Stand is a component of the [Star Platinum distributed AI supercomputer](https://github.com/DeadByDawn101/star-platinum-cluster) — 5 nodes, 46.9 ANE TFLOPS, 216 GB unified memory, Thunderbolt ring topology.
 
-## Disclaimer
-
-This is not an official Dortania release. Use at your own risk. Always have a backup.
-
-**Community:** [InsanelyMac thread](https://www.insanelymac.com/forum/topic/362042-experimental-fork-of-oclp-300-nightly-–-wi-fi-airdropairplay-and-applehda-fully-working-under-tahoe/)
+Other Stands in the cluster:
+- 「**Star Platinum**」 — The cluster itself
+- 「**Hermit Purple**」 — macOS ARM on Intel x86 via QEMU
+- 「**Big Mouth Strikes Again**」 — This patcher
 
 ---
 
 <p align="center">
-<sub>RavenX LLC · 2026 · First to Market</sub>
+<sub>RavenX LLC · 2026 · 「We don't work with what's possible. We MAKE things possible.」</sub>
 </p>

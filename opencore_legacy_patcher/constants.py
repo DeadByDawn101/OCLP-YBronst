@@ -13,10 +13,10 @@ from .detections import device_probe
 class Constants:
     def __init__(self) -> None:
         # Patcher Versioning
-        self.patcher_version:                 str = "3.1.7r"  # RavenX LLC Tahoe Patcher
+        self.patcher_version:                 str = "3.1.7r"  # 「BIG MOUTH STRIKES AGAIN」
         self.patcher_support_pkg_version:     str = "2.0.0"  # PatcherSupportPkg
         self.copyright_date:                  str = "Copyright © 2020-2025 Dortania, © 2026 RavenX LLC"
-        self.patcher_name:                    str = "RavenX Tahoe Patcher"
+        self.patcher_name:                    str = "Big Mouth Strikes Again"
 
         # URLs
         self.url_patcher_support_pkg:         str = "https://github.com/YBronst/PatcherSupportPkg/releases/tag/2.0.0/Universal-Binaries.dmg"
