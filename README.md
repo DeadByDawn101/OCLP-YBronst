@@ -18,7 +18,7 @@ For systems requiring a fully functional reference environment (including sound)
 
 *Note: This patch set still requires the `amfi=0x80` boot argument.*
 
-## [Running from source](https://github.com/YBronst/OCLP-YBronst/blob/main/SOURCE.md)
+### [Running from source](https://github.com/YBronst/OCLP-YBronst/blob/main/SOURCE.md)
 
 ---
 ## Credits
