@@ -55,6 +55,8 @@ Based on OpenCore Legacy Patcher by Dortania + YBronst Tahoe patchset.
 Enhanced by RavenX LLC with critical fixes for iMac Pro, 2017 MacBook Pro,
 and Intel Kaby Lake GPUs that upstream missed entirely.
 
+### [Running from source](https://github.com/YBronst/OCLP-YBronst/blob/main/SOURCE.md)
+
 ---
 
 ## Stand Ability: 「 DEVOUR & RECONSTRUCT 」

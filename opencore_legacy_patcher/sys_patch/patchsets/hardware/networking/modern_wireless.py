@@ -52,38 +52,12 @@ class ModernWireless(BaseHardware):
         """
         return HardwareVariant.NETWORKING
 
-    def _patches_modern_wireless_common_extended(self) -> dict:
+    def _base_patch(self) -> dict:
         """
-        Extended modern wireless patches
-        """
-        if self._xnu_major > os_data.sonoma:
-            return {}
-
-        return {
-            "Modern Wireless Extended": {
-                PatchType.OVERWRITE_SYSTEM_VOLUME: {
-                    "/usr/libexec": {
-                        "airportd": f"13.7.2-{self._xnu_major}",
-                    },
-                },
-                PatchType.MERGE_SYSTEM_VOLUME: {
-                    "/System/Library/Frameworks": {
-                        "CoreWLAN.framework": f"13.7.2-{self._xnu_major}",
-                    },
-                    "/System/Library/PrivateFrameworks": {
-                        "CoreWiFi.framework":  f"13.7.2-{self._xnu_major}",
-                    },
-                },
-            },
-        }
-
-
-    def _patches_modern_wireless_common(self) -> dict:
-        """
-        Common modern wireless patches
+        Base patches for Modern Wireless
         """
         return {
-            "Modern Wireless Common": {
+            "Modern Wireless": {
                 PatchType.OVERWRITE_SYSTEM_VOLUME: {
                     "/usr/libexec": {
                         "wifip2pd": f"13.7.2-{self._xnu_major}",
@@ -94,18 +68,43 @@ class ModernWireless(BaseHardware):
                         "IO80211.framework":        f"13.7.2-{self._xnu_major}",
                         "WiFiPeerToPeer.framework": f"13.7.2-{self._xnu_major}",
                     },
+                }
+            },
+        }
+
+    def _extended_patch(self) -> dict:
+        """
+        Extended patches for Modern Wireless
+        """
+        if self._xnu_major > os_data.sonoma:
+            return {}
+
+        return {
+            "Modern Wireless Extended": {
+                PatchType.OVERWRITE_SYSTEM_VOLUME: {
+                    "/usr/libexec": {
+                        "wifip2pd": f"13.7.2-{self._xnu_major}",
+                    },
                 },
+                PatchType.MERGE_SYSTEM_VOLUME: {
+                    "/System/Library/Frameworks": {
+                        **({ "CoreWLAN.framework": f"13.7.2-{self._xnu_major}" } if self._xnu_major == os_data.sonoma else {}),
+                    },
+                    "/System/Library/PrivateFrameworks": {
+                        "CoreWiFi.framework":       f"13.7.2-{self._xnu_major}",
+                    },
+                }
             },
         }
 
     def patches(self) -> dict:
         """
-        Dictionary of patches
+        Patches for Modern Wireless
         """
         if self.native_os() is True:
             return {}
 
         return {
-            **self._patches_modern_wireless_common(),
-            **self._patches_modern_wireless_common_extended(),
+            **self._base_patch(),
+            **self._extended_patch(),
         }
