@@ -60,13 +60,13 @@ UNUSED_DRIVERS = [
     "RamDiskDxe.efi",
     "Mtftp6Dxe.efi",
     "OpenNetworkBoot.efi",
-    "Virtio10.efi",
+    "VirtioSerialDxe.efi",
     "VirtioBlkDxe.efi",
-    "VirtioGpuDxe.efi",
-    "VirtioNetDxe.efi",
     "VirtioPciDeviceDxe.efi",
+    "VirtioNetDxe.efi",
+    "VirtioGpuDxe.efi",
     "VirtioScsiDxe.efi",
-    "VirtioSerialDxe.efi"
+    "Virtio10.efi",
 ]
 
 UNUSED_TOOLS = [

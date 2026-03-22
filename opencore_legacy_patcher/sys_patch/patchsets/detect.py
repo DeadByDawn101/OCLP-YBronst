@@ -138,7 +138,6 @@ class HardwarePatchsetDetection:
             pcie_webcam.PCIeFaceTimeCamera,
             t1_security.T1SecurityChip,
             usb11.USB11Controller,
-            cpu_missing_avx.CPUMissingAVX,
         ]
 
         self.device_properties = None
@@ -229,7 +228,7 @@ class HardwarePatchsetDetection:
         """
         Determine if System Integrity Protection is enabled
         """
-        return utilities.csr_decode(configs)
+        return not amfi_detect.AmfiConfigurationDetection(xnu_major=self._xnu_major).SIP_SUITABLE
 
 
     def _validation_check_secure_boot_model_enabled(self) -> bool:
@@ -243,7 +242,7 @@ class HardwarePatchsetDetection:
         """
         Determine if AMFI is enabled
         """
-        return not amfi_detect.AmfiConfigurationDetection().check_config(self._override_amfi_level(level))
+        return not amfi_detect.AmfiConfigurationDetection(xnu_major=self._xnu_major).check_config(self._override_amfi_level(level))
 
 
     def _validation_check_whatevergreen_missing(self) -> bool:
