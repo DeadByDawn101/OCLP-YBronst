@@ -135,7 +135,7 @@ class InstallerCreation():
 
         with script_location.open("w") as script:
             script.write(f'''#!/bin/bash
-erase_disk='/usr/sbin/diskutil eraseDisk JHFS+ OCLP-Installer GPT {disk}'
+erase_disk='/usr/sbin/diskutil eraseDisk APFS OCLP-Installer {disk}'
 if $erase_disk; then
     "{createinstallmedia_path}" --volume /Volumes/OCLP-Installer --nointeraction{additional_args}
 fi
